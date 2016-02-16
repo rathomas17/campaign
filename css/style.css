@@ -1,6 +1,8 @@
 body, html
 {
-	background-color: #EDEDED !important;
+	background-image: url(images/pattern7.png) !important;
+
+
 }
 
 .intro
@@ -147,10 +149,54 @@ footer
 	padding-top: 0px;
 }
 
-#homefoot{
- font-size: 0.75em;
-  text-align: center;
-  clear: both;
-  padding-top: 50px;
-  color: #ccc;
+
+
+
+
+/*!!!MOBILE VIEW STRICT CSS!!!*/
+@media screen and (min-width: 330px) {
+
+	#homevideo {
+
+		margin:auto;
+		margin-top: 40%;
+		margin-bottom: 10%;
+	}
+
+	#homefoot{
+	 font-size: 0.75em;
+	  text-align: center;
+	  clear: both;
+		margin-top: 40%;
+
+	  color: #000;
+	}
+
+
+
+}
+
+/*!!!DESKTOP VIEW STRICT CSS!!!*/
+
+@media screen and (min-width: 660px) {
+
+	/*ADDED CSS STYLING*/
+
+	#homefoot{
+	 font-size: 0.75em;
+		text-align: center;
+		clear: both;
+		margin-top: 0;
+		color: #ccc;
+	}
+
+	#homevideo {
+		display:block;
+		margin:auto;
+		margin-top: 5%;
+		margin-bottom: 7%;
+	}
+
+
+
 }
