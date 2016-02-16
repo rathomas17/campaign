@@ -1,3 +1,6 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/qnimate/pen/WbpKbJ.
+Campaign site for OSU USG Pres. and Vice Pres.
 
- 
+Meteor packages needed: iron:router, materialize:materialize
+
+
+index.html source http://codepen.io/qnimate/pen/WbpKbJ.
