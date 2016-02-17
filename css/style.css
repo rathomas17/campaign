@@ -258,6 +258,14 @@ footer
 		margin-top: 40%;
 }
 
+#needspace2{
+	margin-top: 90%;
+}
+
+#needspace3{
+	margin-top: 25%;
+}
+
 #twitter{
 	display: block;
 
@@ -276,6 +284,10 @@ footer
 
 	display: inline-block;
 	max-width: 100px;
+}
+
+#question{
+	max-width: 300px;
 }
 
 
