@@ -1,9 +1,10 @@
 $(document).ready(function(){
   $('.materialboxed').materialbox();
+  $('.wheel').slick({
+
+  });
 });
-$(document).ready(function(){
-  $('.materialboxed').materialbox();
-});
+
 
 Template.index.events({
   name: "Ben Bitdiddle"
