@@ -29,6 +29,25 @@ body, html
 	font-size: 1.2rem;
 }
 
+.questions h5
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.questions h6
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.questions hr
+{
+	width: 40px;
+	margin-bottom: 45px;
+}
 
 .about .col
 {
@@ -101,6 +120,25 @@ body, html
 	width: 33%;
 	display: inline-block;
 	float: left;
+}
+.whos-involved h5
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.whos-involved h6
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.whos-involved hr
+{
+	width: 40px;
+	margin-bottom: 45px;
 }
 
 .contact .col
