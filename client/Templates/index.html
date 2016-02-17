@@ -1,82 +1,82 @@
 <template name = "index">
+
   <head>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-
-    <title>osu campaign</title>
+      <title>osu campaign</title>
     <!--<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>-->
-    <link rel='stylesheet prefetch' type="text/css" href='https://cdn.rawgit.com/Dogfalo/materialize/master/dist/css/materialize.min.css'>
-    <link rel="stylesheet" type = "text/css" href="../css/style.css">
+      <link rel='stylesheet prefetch' type="text/css" href='https://cdn.rawgit.com/Dogfalo/materialize/master/dist/css/materialize.min.css'>
+      <link rel="stylesheet" type = "text/css" href="../css/style.css">
 
 
-<!--MENU CSS-->
-<style type="text/css">
-  ul {list-style: none;padding: 0px;margin: 0px;}
-  ul li {display: block;position: relative;float: left;border:1px solid #F8F8F8}
-  li ul {display: none;}
-  ul li a {display: block;background: #A0A0A0;padding: 15px 10px 15px 10px;text-decoration: none;
-           white-space: nowrap;color: #fff;}
-  ul li a:hover {background: #A0A0A0;}
-  li:hover ul {display: block; position: absolute;}
-  li:hover li {float: left; }
-  li:hover a {background: #F57F17;}
-  li:hover li a:hover {background: #000;}
-  #drop-nav li ul li {border-top: 0px;}
-</style>
-
+      <!--MENU CSS-->
+      <style type="text/css">
+        ul {list-style: none;padding: 2px 2px 2px ;margin: 0px;}
+        ul li {display: block;position: relative;float: left;border:1px solid #F8F8F8}
+        li ul {display: none;}
+        ul li a {display: block;background: #A0A0A0;padding: 15px 10px 15px 10px;text-decoration: none;
+               white-space: nowrap;color: #fff;}
+        ul li a:hover {background: #A0A0A0;}
+        li:hover ul {display: block; position: absolute;}
+        li:hover li {float: left; }
+        li:hover a {background: #F57F17;}
+        li:hover li a:hover {background: #000;}
+        #drop-nav li ul li {border-top: 0px;}
+      </style>
+      <!--END MENU CSS-->
 
   </head>
 
+
+
+
+
+
+
   <body>
-
-
-
-
-
 
     <!--FACEBOOK CODE-->
     <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
     <!--END FACEBOOK CODE-->
 
 
-
-    <div id="homeheader" class="intro yellow darken-4 z-depth-3">
-      <h1 class="grey-text text-lighten-5">Test test</h1>
-      <h5 clas="grey lighten-4 grey-text text-darken-1">it's lit</h5>
-    </div>
+    <!--HEADER-->
+    <a id = "topjump">
+      <div id="homeheader" class="intro yellow darken-4 z-depth-3">
+        <h1 class="grey-text text-lighten-5">Test test</h1>
+        <h5 clas="grey lighten-4 grey-text text-darken-1">it's lit</h5>
+      </div>
+    </a>
+    <!--END HEADER-->
 
 
     <!--MENU CODE-->
-
-
-      <ul id="drop-nav">
-    <li><a href="#">Menu</a>
-      <ul>
-        <li><a href="#aboutjump">About  </a></li>
-        <li><a href="#policyjump">Policies</a></li>
-        <li><a href="#staffjump">Staff </a></li>
-        <li><a href="#mediajump">Media </a></li>
-        <li><a href="#contactjump">Contact   </a></li>
-
-      </ul>
-    </li>
-  </ul>
+    <ul id="drop-nav">
+      <li><a href="#">MENU</a>
+        <ul>
+          <li><a href="#topjump"    >Home   </a></li>
+          <li><a href="#aboutjump"  >About  </a></li>
+          <li><a href="#policyjump" >Policy </a></li>
+          <li><a href="#staffjump"  >Staff  </a></li>
+          <li><a href="#mediajump"  >Media  </a></li>
+          <li><a href="#contactjump">Contact</a></li>
+        </ul>
+      </li>
+    </ul>
     <!-- END MENU CODE-->
 
 
-
-
-
+    <!--THREE QUESTIONS-->
     <div id="needspace3" class="col s12 m4 l4">
-
       <ul class="collapsible">
         <li class="active">
           <div class="collapsible-header"><i class="mdi-av-web"></i>Who is the greatest of all time?</div>
@@ -90,64 +90,49 @@
           <div class="collapsible-header"><i class="mdi-av-play-shopping-bag"></i>Can you see the light?</div>
           <div class="collapsible-body"><img id="question" src="images/puppy.gif"></div>
         </li>
-
       </ul>
     </div>
-
-
-
-
-
-
-
-
-
-
+    <!--END THREE QUESTIONS-->
 
 
     <!-- Section 3 -->
     <div class="container about">
-<a id = "aboutjump"> </a>
-      <h5 id="needspace2">THE CANDIDATES</h5>
-      <h6>This Guy - President, That Guy - Vice President</h6>
-
+      <a id = "aboutjump"> </a>
+        <h5 id="needspace2">THE CANDIDATES</h5>
+        <h6>This Guy - President, That Guy - Vice President</h6>
       <div class="container">
         <img id="can1" src="images/cans.png">
-
       </div>
-
       <hr>
-      <div class="row">
+        <div class="row">
+          <div class="col s12 m4 l4">
+            <h6>PRESIDENT</h6>
+              <div class="card grey z">
+                <div class="card-content white-text">
+                  <img src="images/can1.jpg" width="64" height="64">
+                  <p>Cool guy. Likes trutles. No Ragarts.</p>
+                </div>
+                <div class="card-action">
+                  <a class = "grey" href="#">Facebook</a>
+                  <a class = "grey" href='#'>Snapchat</a>
+                </div>
+              </div>
+            </div>
 
 
-        <div class="col s12 m4 l4">
-          <h6>PRESIDENT</h6>
-          <div class="card grey z">
-            <div class="card-content white-text">
-              <img src="images/can1.jpg" width="64" height="64">
-              <p>Cool guy. Likes trutles. No Ragarts.</p>
-            </div>
-            <div class="card-action">
-              <a class = "grey" href="#">Facebook</a>
-              <a class = "grey" href='#'>Snapchat</a>
-            </div>
+          <div class="col s12 m4 l4">
+            <h6>VICE PRESIDENT</h6>
+              <div class="card grey  z">
+                <div class="card-content white-text">
+                  <img src="images/can2.jpg" width="64" height="64">
+                  <p>Once opened for Good Charlotte in SXSW.</p>
+                </div>
+                <div class="card-action">
+                  <a class = "grey" href="#">Facebook</a>
+                  <a class = "grey" href='#'>Snapchat</a>
+                </div>
+              </div>
           </div>
-        </div>
-
-
-        <div class="col s12 m4 l4">
-          <h6>VICE PRESIDENT</h6>
-          <div class="card grey  z">
-            <div class="card-content white-text">
-              <img src="images/can2.jpg" width="64" height="64">
-              <p>Once opened for Good Charlotte in SXSW.</p>
-            </div>
-            <div class="card-action">
-              <a class = "grey" href="#">Facebook</a>
-              <a class = "grey" href='#'>Snapchat</a>
-            </div>
-          </div>
-        </div>
 
 
 
