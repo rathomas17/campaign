@@ -208,6 +208,12 @@ footer
 	padding-top: 0px;
 }
 
+#expense {
+	margin: auto;
+	margin-top: 40%;
+
+}
+
 
 /*!!!MOBILE VIEW STRICT CSS!!!*/
 @media screen and (min-width: 330px) {
@@ -255,7 +261,9 @@ footer
 	}
 
 #needspace{
+		text-align: center;
 		margin-top: 40%;
+
 }
 
 #needspace2{
@@ -268,15 +276,15 @@ footer
 
 #twitter{
 	display: block;
-
-	margin: auto;
-	max-width: 90%;
+float: left;
+	margin: 0 0 0 -20px;
+	width: 180px;
 }
 #twitter2{
 	display: block;
-	float: right;
-	margin: auto;
-	max-width: 200px;
+float: right;
+margin: 0 10px 0 0;
+	width: 170px;
 }
 
 #facebook{
@@ -306,6 +314,19 @@ footer
 		clear: both;
 		margin-top: 0;
 		color: #000;
+	}
+
+	#twitter{
+		display: block;
+
+		margin: auto;
+		max-width: 90%;
+	}
+	#twitter2{
+		display: block;
+		float: right;
+		margin: auto;
+		max-width: 200px;
 	}
 
 	#homevideo {
