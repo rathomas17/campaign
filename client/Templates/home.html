@@ -27,7 +27,65 @@
       </div>
 
 
-         <object id = "homevideo"  data="http://www.youtube.com/v/jjaP3_k0-fY?rel=0&autoplay=1" style="height: 400px; width: 700px;" type="application/x-shockwave-flash"> <param name="movie" value="http://www.youtube.com/v/jjaP3_k0-fY" /></object>
+        <!-- YOUTUBE code
+
+        <object id = "homevideo"  data="http://www.youtube.com/v/jjaP3_k0-fY?rel=0&autoplay=1" style="height: 400px; width: 700px;" type="application/x-shockwave-flash"> <param name="movie" value="http://www.youtube.com/v/jjaP3_k0-fY" /></object> -->
+
+     <iframe id = "homevideo" src="https://player.vimeo.com/video/149478317?autoplay=1&loop=1&color=f3d0b5&title=0&byline=0&portrait=0&badge=0" width="100%" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+     <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+
+     			<script>
+     				var player = $f(document.getElementById('homevideo'));
+     				player.addEvent('ready', function() {
+     				player.api('play');
+     				});
+     			</script>
+
+
+     <script>
+
+     		//NOTE: Jesse Collis github.com/jessedc - this works as of it's last updated date. YMMV
+
+     		// Add a listener for the window's load event
+     		window.addEventListener('load', onWindowLoad, false);
+     		function onWindowLoad(event) {
+     			//use a loop to continue checking the vimeo iframe for the 'play' button
+     			checkForTrue(isIframeButtonLoaded, iFrameButtonLoaded);
+     		}
+     		function checkForTrue(func, callback) {
+     			setTimeout(function() {
+     				if (func()) {
+     					callback( iFrameButton() );
+     				} else {
+     					checkForTrue(func, callback);
+     				};
+     			}, 1000);
+     		}
+     		//finds the 'play' button within the Vimeo iframe
+     		function iFrameButton() {
+     			//window.frames[0].document.getElementsByTagName('div')[1]; // this also works
+     			return window.frames[0].document.getElementsByTagName('button')[5];
+     		}
+     		//simple boolean condition to check for the iframe button
+     		function isIframeButtonLoaded() {
+     			return ( iFrameButton() != null );
+     		}
+     		//once the button is loaded, click it
+     		function iFrameButtonLoaded(iFrameButton) {
+     			iFrameButton.click();
+     		}
+     		</script>
+
+
+
+
+
+
 
 
 
