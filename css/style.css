@@ -220,8 +220,8 @@ footer
 
 	#can1{
 	 display: block;
-	max-width: 410px;
-	max-height: 244px;
+	max-width: 100%;
+	max-height: none;
 	margin: auto;
 	}
 
@@ -254,7 +254,7 @@ footer
 	 display: block;
 	max-width: 820px;
 	max-height: 488px;
-	
+
 	}
 
 
