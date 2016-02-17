@@ -4,123 +4,52 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-
     <title>landing page</title>
-
-
-
     <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/Dogfalo/materialize/master/dist/css/materialize.min.css'>
-
-        <link rel="stylesheet" href="../css/style.css">
-
-
-
+    <link rel="stylesheet" href="../css/style.css">
 
   </head>
 
-<body>
-  <div class="container about">
 
 
+
+  <body>
+
+    <div class="container about">
     <div class="intro yellow darken-4 z-depth-1">
-        <h5 clas="grey lighten-4 grey-text text-darken-1">welcome to the campaign site</h5>
-      </div>
-
+      <h5 clas="grey lighten-4 grey-text text-darken-1">welcome to the campaign site</h5>
+    </div>
 
         <!-- YOUTUBE code
-
         <object id = "homevideo"  data="http://www.youtube.com/v/jjaP3_k0-fY?rel=0&autoplay=1" style="height: 400px; width: 700px;" type="application/x-shockwave-flash"> <param name="movie" value="http://www.youtube.com/v/jjaP3_k0-fY" /></object> -->
 
-     <iframe id = "homevideo" src="https://player.vimeo.com/video/149478317?autoplay=1&loop=1&color=f3d0b5&title=0&byline=0&portrait=0&badge=0" width="100%" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe id = "homevideo" src="https://player.vimeo.com/video/149478317?autoplay=1&loop=1&color=f3d0b5&title=0&byline=0&portrait=0&badge=0" width="100%" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+    <div class="row">
+      <div class="col s12 m4 l4">
+      </div>
+      <div class="col s12 m4 l4">
+        <a href='/index'>
+          <div class="intro yellow darken-4 z-depth-1">
+            <h5 clas="grey lighten-4 grey-text text-darken-1">Click here to enter</h5>
+          </div>
+        </a>
+      </div>
+      <div class="col s12 m4 l4">
+      </div>
+    </div>
+    </div>
+
+  </body>
 
 
 
 
-
-     <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
-
-     			<script>
-     				var player = $f(document.getElementById('homevideo'));
-     				player.addEvent('ready', function() {
-     				player.api('play');
-     				});
-     			</script>
-
-
-     <script>
-
-     		//NOTE: Jesse Collis github.com/jessedc - this works as of it's last updated date. YMMV
-
-     		// Add a listener for the window's load event
-     		window.addEventListener('load', onWindowLoad, false);
-     		function onWindowLoad(event) {
-     			//use a loop to continue checking the vimeo iframe for the 'play' button
-     			checkForTrue(isIframeButtonLoaded, iFrameButtonLoaded);
-     		}
-     		function checkForTrue(func, callback) {
-     			setTimeout(function() {
-     				if (func()) {
-     					callback( iFrameButton() );
-     				} else {
-     					checkForTrue(func, callback);
-     				};
-     			}, 1000);
-     		}
-     		//finds the 'play' button within the Vimeo iframe
-     		function iFrameButton() {
-     			//window.frames[0].document.getElementsByTagName('div')[1]; // this also works
-     			return window.frames[0].document.getElementsByTagName('button')[5];
-     		}
-     		//simple boolean condition to check for the iframe button
-     		function isIframeButtonLoaded() {
-     			return ( iFrameButton() != null );
-     		}
-     		//once the button is loaded, click it
-     		function iFrameButtonLoaded(iFrameButton) {
-     			iFrameButton.click();
-     		}
-     		</script>
+  <footer id = "homefoot">
+    <p>&copy; 2016 Kamari Wright and Ryan-Alexander Thomas</p>
+  </footer>
 
 
 
-
-
-
-
-
-
-
-         <div class="row">
-           <div class="col s12 m4 l4">
-
-
-           </div>
-           <div class="col s12 m4 l4">
-
-
-
-              <a href='/index'>
-
-                <div class="intro yellow darken-4 z-depth-1">
-                    <h5 clas="grey lighten-4 grey-text text-darken-1">Click here to enter</h5>
-                  </div>
-
-             </a>
-
-
-           </div>
-
-
-           <div class="col s12 m4 l4">
-
-
-
-           </div>
-         </div>
-       </div>
-</body>
-
-<footer id = "homefoot">
-  <p>&copy; 2016 Kamari Wright and Ryan-Alexander Thomas.</p>
-</footer>
+  
 </template>
