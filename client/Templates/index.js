@@ -9,5 +9,4 @@ $(document).ready(function(){
 Template.index.events({
   name: "Ben Bitdiddle"
 
-
 });
