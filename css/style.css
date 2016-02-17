@@ -219,6 +219,15 @@ footer
 		margin-bottom: 10%;
 	}
 
+	#drop-nav {
+		position: fixed;
+		float: left;
+		z-index: 1;
+		margin-top: -300px;
+	}
+
+
+
 	#homefoot{
 	 font-size: 1em;
 	  text-align: center;
@@ -251,7 +260,7 @@ footer
 	display: block;
 
 	margin: auto;
-	max-width: 400px;
+	max-width: 90%;
 }
 #twitter2{
 	display: block;

@@ -8,9 +8,33 @@
     <!--<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>-->
     <link rel='stylesheet prefetch' type="text/css" href='https://cdn.rawgit.com/Dogfalo/materialize/master/dist/css/materialize.min.css'>
     <link rel="stylesheet" type = "text/css" href="../css/style.css">
+
+
+<!--MENU CSS-->
+<style type="text/css">
+  ul {list-style: none;padding: 0px;margin: 0px;}
+  ul li {display: block;position: relative;float: left;border:1px solid #000}
+  li ul {display: none;}
+  ul li a {display: block;background: #000;padding: 5px 10px 5px 10px;text-decoration: none;
+           white-space: nowrap;color: #fff;}
+  ul li a:hover {background: #f00;}
+  li:hover ul {display: block; position: absolute;}
+  li:hover li {float: none;}
+  li:hover a {background: #f00;}
+  li:hover li a:hover {background: #000;}
+  #drop-nav li ul li {border-top: 0px;}
+</style>
+
+
   </head>
 
   <body>
+
+
+
+
+
+
     <!--FACEBOOK CODE-->
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
@@ -22,10 +46,29 @@
     }(document, 'script', 'facebook-jssdk'));</script>
     <!--END FACEBOOK CODE-->
 
-    <div class="intro yellow darken-4 z-depth-1">
+
+<section id="homeheader">
+    <div class="intro yellow darken-4 z-depth-3">
       <h1 class="grey-text text-lighten-5">Test test</h1>
       <h5 clas="grey lighten-4 grey-text text-darken-1">it's lit</h5>
     </div>
+  </section>
+
+    <!--MENU CODE-->
+
+
+      <ul id="drop-nav">
+    <li><a href="#">Content Management</a>
+      <ul>
+        <li><a href="#">Joomla</a></li>
+        <li><a href="#">Drupal</a></li>
+        <li><a href="#">WordPress</a></li>
+        <li><a href="#">Concrete 5</a></li>
+      </ul>
+    </li>
+  </ul>
+    <!-- END MENU CODE-->
+
 
     <div class = "container questions">
       <h5>Three Questions </h5>
@@ -217,7 +260,7 @@
       </div>
     </div>
     <footer id = "indexfoot">
-      <p>&copy; 2016 Kamari Wright and Ryan-Alexander Thomas.</p>
+      <p>&copy; 2016 Kamari Wright and Ryan-Alexander Thomas</p>
     </footer>
 
 
