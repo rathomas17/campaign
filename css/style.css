@@ -141,6 +141,27 @@ body, html
 	margin-bottom: 45px;
 }
 
+.get-involved h5
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.get-involved h6
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.get-involved hr
+{
+	width: 40px;
+	margin-bottom: 45px;
+}
+
+
 .contact .col
 {
 	margin-bottom: 24px;
