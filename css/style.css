@@ -246,6 +246,9 @@ footer
 	margin: auto;
 	}
 
+#needspace{
+		margin-top: 40%;
+}
 
 }
 
@@ -276,6 +279,10 @@ footer
 	max-width: 820px;
 	max-height: 488px;
 
+	}
+
+	#needspace{
+			margin-top: 10%;
 	}
 
 
