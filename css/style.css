@@ -250,6 +250,27 @@ footer
 		margin-top: 40%;
 }
 
+#twitter{
+	display: block;
+
+	margin: auto;
+	max-width: 400px;
+}
+#twitter2{
+	display: block;
+	float: right;
+	margin: auto;
+	max-width: 200px;
+}
+
+#facebook{
+
+
+	display: inline-block;
+	max-width: 100px;
+}
+
+
 }
 
 
@@ -284,6 +305,8 @@ footer
 	#needspace{
 			margin-top: 10%;
 	}
+
+
 
 
 
