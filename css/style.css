@@ -181,6 +181,10 @@ body, html
 	margin-bottom: 45px;
 }
 
+.submit-btn {
+	margin-top: 10px;
+}
+
 .contact hr
 {
 	width: 40px;
