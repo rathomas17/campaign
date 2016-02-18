@@ -308,6 +308,15 @@ margin: 0 10px 0 0;
 
 	/*ADDED CSS STYLING*/
 
+
+	#drop-nav{
+		margin-top: -35%;
+		margin-right: -30%;
+		float: left;
+		display: block;
+
+	}
+
 	#homefoot{
 	 font-size: 1em;
 		text-align: center;
@@ -320,13 +329,13 @@ margin: 0 10px 0 0;
 		display: block;
 		float: left;
 
-		max-width: 400px;
+		width: 500px;
 	}
 	#twitter2{
 		display: block;
 		float: right;
 
-		max-width: 400px;
+		width: 500px;
 	}
 
 	#homevideo {
