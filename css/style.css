@@ -215,7 +215,11 @@ footer
 }
 
 #forward {
-	z-index: 3;
+	z-index: 0;
+	margin:auto;
+	margin-bottom: 20px;
+	display: block;
+
 }
 
 
