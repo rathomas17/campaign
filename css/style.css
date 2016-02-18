@@ -318,15 +318,15 @@ margin: 0 10px 0 0;
 
 	#twitter{
 		display: block;
+		float: left;
 
-		margin: auto;
-		max-width: 90%;
+		max-width: 400px;
 	}
 	#twitter2{
 		display: block;
 		float: right;
-		margin: auto;
-		max-width: 200px;
+
+		max-width: 400px;
 	}
 
 	#homevideo {
