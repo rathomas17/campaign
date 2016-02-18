@@ -214,6 +214,10 @@ footer
 
 }
 
+#forward {
+	z-index: 3;
+}
+
 
 /*!!!MOBILE VIEW STRICT CSS!!!*/
 @media screen and (min-width: 330px) {
