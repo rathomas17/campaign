@@ -220,7 +220,7 @@ footer
 
 #forward {
 	z-index: 0;
-	margin:auto;
+  margin: auto;
 	margin-bottom: 20px;
 	display: block;
 
@@ -241,8 +241,8 @@ footer
 		float: right;
 		position: fixed;
 
-		z-index: 1;
-		margin-top: -380px;
+		z-index: 5;
+		margin-top: -300px;
 		margin-left: 80%;
 	}
 
