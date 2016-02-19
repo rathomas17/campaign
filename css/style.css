@@ -230,6 +230,15 @@ footer
 
 }
 
+#shrink{
+	width: 70%;
+}
+
+#wheelphoto {
+	width: 200px;
+}
+
+
 
 /*!!!MOBILE VIEW STRICT CSS!!!*/
 @media screen and (min-width: 330px) {
