@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
       <title>osu campaign</title>
-    <!--<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>-->
       <link rel='stylesheet prefetch' type="text/css" href='https://cdn.rawgit.com/Dogfalo/materialize/master/dist/css/materialize.min.css'>
       <link rel="stylesheet" type = "text/css" href="../css/style.css">
 
@@ -52,7 +51,7 @@
     <!--HEADER-->
     <a id = "topjump">
       <div id="homeheader" class="intro yellow darken-4 z-depth-3">
-        <img id="forward" src="images/title.png" width="50%" height="40%">
+        <h1 class="grey-text text-lighten-5">HANEY  HENRY</h1>
         <h5 clas="grey lighten-4 grey-text text-darken-1">Write them in</h5>
       </div>
     </a>
@@ -63,11 +62,11 @@
     <ul id="drop-nav">
       <li><a href="#">MENU</a>
         <ul>
-          <li><a href="#topjump"    >Home   </a></li>
-          <li><a href="#aboutjump"  >About  </a></li>
-          <li><a href="#policyjump" >Policy </a></li>
-          <li><a href="#staffjump"  >Staff  </a></li>
-          <li><a href="#mediajump"  >Media  </a></li>
+          <li><a href="#topjump">Home</a></li>
+          <li><a href="#aboutjump">About</a></li>
+          <li><a href="#policyjump">Policy</a></li>
+          <li><a href="#staffjump">Staff</a></li>
+          <li><a href="#mediajump">Media</a></li>
           <li><a href="#contactjump">Contact</a></li>
         </ul>
       </li>
@@ -76,9 +75,9 @@
 
 
     <!--THREE QUESTIONS-->
-    <div id="needspace3" class="col s12 m4 l4">
-      <ul class="collapsible">
-        <li class="active">
+    <!--<div id="needspace3" class="col s12 m4 l4">
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
           <div class="collapsible-header"><i class="mdi-av-web"></i>Who is the greatest of all time?</div>
           <div class="collapsible-body"><img id="question" src="images/kanye.gif"></div>
         </li>
@@ -91,9 +90,15 @@
           <div class="collapsible-body"><img id="question" src="images/puppy.gif"></div>
         </li>
       </ul>
-    </div>
+    </div>-->
     <!--END THREE QUESTIONS-->
-
+    <div class="container ques-sect">
+      <div class="ques-wheel">
+        <div> 1 </div>
+        <div> 2 </div>
+        <div> 3 </div>
+      </div>
+    </div>
 
     <!-- Section 3 -->
     <div class="container about">
@@ -101,17 +106,15 @@
         <h5 id="needspace2">THE CANDIDATES</h5>
         <h6>This Guy - President, That Guy - Vice President</h6>
       <div class="container">
-        <img id="can1" src="images/cans.png">
+        <img class="" id="can1" src="images/cans.png">
       </div>
 
-      <hr>
-
-        <div id="cans" class="row">
+        <div id="cans" class="row valign">
           <div class="col s12 m4 l4">
             <h6>PRESIDENT</h6>
               <div class="card grey z">
                 <div class="card-content white-text">
-                  <img src="images/can1.jpg" width="64" height="64">
+                  <img src="images/can1.jpg" width="150" height="150">
                   <p>Cool guy. Likes trutles. No Ragarts.</p>
                 </div>
                 <div class="card-action">
@@ -123,9 +126,9 @@
 
           <div class="col s12 m4 l4">
             <h6>VICE PRESIDENT</h6>
-              <div class="card grey  z">
+              <div class="card grey z">
                 <div class="card-content white-text">
-                  <img src="images/can2.jpg" width="64" height="64">
+                  <img src="images/can2.jpg" width="150" height="150">
                   <p>Once opened for Good Charlotte in SXSW.</p>
                 </div>
                 <div class="card-action">
@@ -180,12 +183,8 @@
     <div class="container get-involved">
       <h5 id="needspace"> Get Invovled </h5>
       <h6> Connect with us on social media! </h6>
-
       <hr>
-
         <div class = "row">
-
-
         <!--Twitter Feed-->
         <a id = "mediajump"> </a>
           <div id="twitter" class = "col l6 m6 s12">
@@ -226,7 +225,8 @@
     </div>
 
       <script type="text/javascript" src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-      <script type="text/javascript" src='https://cdn.rawgit.com/Dogfalo/materialize/master/dist/js/materialize.min.js'></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
 
 
     <!--EXPENSE REPORT-->

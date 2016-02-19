@@ -1,12 +1,13 @@
 $(document).ready(function(){
-  //$('.materialboxed').materialbox();
-  $('.wheel').slick({
 
-  });
 });
 
 Template.index.onRendered(function() {
   $('.wheel').slick({
+
+  });
+
+  $('.ques-wheel').slick({
 
   });
 });
