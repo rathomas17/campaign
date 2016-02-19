@@ -226,6 +226,11 @@ footer
 
 }
 
+#shrink{
+	width: 70%;
+}
+
+
 
 /*!!!MOBILE VIEW STRICT CSS!!!*/
 @media screen and (min-width: 330px) {
